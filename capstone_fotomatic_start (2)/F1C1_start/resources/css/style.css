@@ -42,7 +42,7 @@ header {
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
   z-index: 100;
-  font-size: 1.5rem;
+  /*font-size: 1.5rem;*/
   display: block;
 }
 
@@ -52,6 +52,7 @@ header .content {
   padding: 1.875rem;
   margin-left: 30px;
   margin-right: 30px;
+  font-size: 24px;
 }
 
 header .logo {
@@ -60,7 +61,7 @@ header .logo {
 
 header nav ul {
   display: flex;
-  font-size: 148px;
+  font-size: 16px;
   float: right;
 }
 
@@ -73,7 +74,7 @@ nav li {
 nav a {
   vertical-align: bottom;
   line-height: 1.6;
-  font-size: 1rem;
+  /*font-size: 16px;*/
   color: #4A4A4A;
   font-family: Roboto-Regular;
   float: left;
@@ -145,6 +146,10 @@ header .desktop {
   padding-top: 170px;
   padding-left: 100px;
   padding-bottom: 170px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*background-attachment: fixed;*/
 }
 
 #sign-up-cta {
@@ -195,9 +200,9 @@ header .desktop {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
   border-radius: 4px;
-  /*width: 408px;
+  /*
+  width: 408px;
   height: 64px;
-
   margin: 26px 80px 56px 80px;*/
 }
 
@@ -206,6 +211,8 @@ header .desktop {
     align-items: center;
     justify-content: center;
     height: 28rem;
+    background-image: url("../images/mobile-banner-landingpage.jpg");
+    background-size: 100% 100%;
   }
 
 
@@ -247,6 +254,8 @@ header .desktop {
   #sign-up-section {
     height: 20rem;
     padding-top: 48px;
+    background-image: url("../images/mobile-banner-landingpage.jpg");
+    background-size: 100% 100%;
   }
 
   #sign-up-cta h1 {
