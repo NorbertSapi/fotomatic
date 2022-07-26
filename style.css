@@ -207,15 +207,15 @@ header .desktop {
     background-image: url("../images/banner-landingpage.jpg");
     background-size: 100% 100%;
   }
-
+}
 
 
   /* Hide the joining question */
   @media screen and (max-width: 760px) {
     .header {
-      display: none;
+      /*display: none;*/
     }
-  }
+  
 
 
   #sign-up-cta {
@@ -249,6 +249,11 @@ header .desktop {
     padding-top: 48px;
     background-image: url("../images/mobile-banner-landingpage.jpg");
     background-size: 100% 100%;
+
+  }
+
+  #sign-up-cta{
+    display:none;
   }
 
   #sign-up-cta h1 {
