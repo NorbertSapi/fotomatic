@@ -217,7 +217,7 @@ header .desktop {
     }
   
 
-
+/*
   #sign-up-cta {
     position: static;
     width: auto;
@@ -242,7 +242,7 @@ header .desktop {
     font-size: 2.25rem;
   }
 }
-
+*/
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
