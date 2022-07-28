@@ -213,11 +213,10 @@ header .desktop {
   /* Hide the joining question */
   @media screen and (max-width: 760px) {
     .header {
-      /*display: none;*/
+      display: none;
     }
   
 
-/*
   #sign-up-cta {
     position: static;
     width: auto;
@@ -242,7 +241,7 @@ header .desktop {
     font-size: 2.25rem;
   }
 }
-*/
+
 @media only screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
